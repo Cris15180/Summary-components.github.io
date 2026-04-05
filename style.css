@@ -1,0 +1,195 @@
+.attribution { font-size: 0.6875rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+.hanken-grotesk-hank {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ECF2FF;
+}
+
+.cuadro-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-bottom: 5vh;
+}
+
+.cuadros{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+}
+
+
+.cuadro-izq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(hsla(241, 72%, 46%, 0.8), hsla(256, 72%, 46%, 1));
+    padding: 2vh;
+    width: 30vh;
+    border-radius: 25px;
+    gap: 1vh;
+    height: 40vh;
+}
+
+.titulo{
+    font-family: "Hanken Grotesk", sans-serif;
+    color: #CDC2FF;
+    font-size: 10px;
+}
+
+.num-resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #4B26CE;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50vh ;
+}
+
+.num-resultado h1,p{
+    margin: 0%;
+    padding: 0%;
+}
+
+.num-resultado h1{
+    color: hsl(0, 0%, 100%);
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.num-resultado p{
+    color: #cdc2ffa7;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 400;
+}
+
+.respuesta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vh;
+    text-align: center;
+    font-family: "Hanken Grotesk", sans-serif;
+
+}
+
+.respuesta h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.respuesta p{
+    color: #c4c1ff;
+}
+
+/*  division del segundo cuadro */
+
+
+
+.cuadro-der {
+    width: 38vh;
+}
+
+.cuadro{
+    padding: 1vh 1vh 1vh 3vh;
+}
+
+.titulo2{
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.card {
+  width: 300px;
+  display: grid;
+  gap: 15px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+    padding: 15px;
+    border-radius: 12px;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+
+.reaction {
+  background: rgba(255, 0, 0, 0.1);
+  color: red;
+}
+
+.memory {
+  background: rgba(255, 200, 0, 0.1);
+  color: goldenrod;
+}
+
+.verbal {
+  background: rgba(0, 200, 150, 0.1);
+  color: teal;
+}
+
+.visual {
+  background: rgba(100, 100, 255, 0.1);
+  color: blue;
+}
+
+.item span:last-child {
+    color: gray;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.item span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.item b {
+  color: black;
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 30vh;
+    padding: 2vh;
+    border: none;
+    border-radius: 30px;
+    background-color: hsl(224, 30%, 27%);
+    color: #ECF2FF;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+
+
+
